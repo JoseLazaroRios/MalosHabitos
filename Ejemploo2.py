@@ -1,12 +1,12 @@
-def calcular_resultado(a, b, c):
-    resultado_calculo = a * b + c
+def calcular_resultado(n1, n2, n3):
+    resultado_calculo = n1 * n2 + n3
     return resultado_calculo
 
 def mostrar_resultado():
-    valor_x = 5
-    valor_y = 3
-    valor_z = 7
-    resultado_final = calcular_resultado(valor_x, valor_y, valor_z)
+    Numero1 = 5
+    Numero2 = 3
+    Numero3 = 7
+    resultado_final = calcular_resultado(Numero1, Numero2, Numero3)
     print("El resultado es:", resultado_final)
 
 mostrar_resultado()

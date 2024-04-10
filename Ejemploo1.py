@@ -1,11 +1,11 @@
-def multiplicar(a, b):
-    resultado_multiplicacion = a * b
+def multiplicar(n1, n2):
+    resultado_multiplicacion = n1 * n2
     return resultado_multiplicacion
 
-x = 10
-y = 5
-z = x + y
+Numero1 = 10
+Numero2 = 5
+z = Numero1 + Numero2
 
-resultado = multiplicar(x, z)
+resultado = multiplicar(Numero1, z)
 
-print("El resultado de multiplicar", x, "por", z, "es:", resultado)
+print("El resultado de multiplicar", Numero1, "por", z, "es:", resultado)
